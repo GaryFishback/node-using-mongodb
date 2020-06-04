@@ -1,7 +1,9 @@
-import mongoose from ('mongoose')
-import { Schema } from "mongoose"
+import mongoose from 'mongoose'
 
-var newItem = new Schema({
+const Schema = mongoose.Schema
+
+
+export const ProductSchema = new Schema({
     name: {
         type: String,
         required: true

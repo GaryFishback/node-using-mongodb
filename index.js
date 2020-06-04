@@ -1,5 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
+const mongoose = require('mongoose')
 
 const app = express();
 const PORT = 4000;
